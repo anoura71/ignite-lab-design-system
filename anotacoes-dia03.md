@@ -30,3 +30,18 @@ scripts: {
 ```bash
 npm run build-storybook
 ```
+
+## 3. Add-on de acessibilidade
+
+https://storybook.js.org/addons/@storybook/addon-a11y
+
+```bash
+npm install @storybook/addon-a11y
+```
+
+## 4. Implementação do código
+
+### 4.1. Logo - transformar em componente React
+
+- No Figma, `Copy as SVG` (funciona no Chrome)
+- Acessar `transform.tools` e obter código do componente React a partir do conteúdo copiado do Figma
